@@ -112,23 +112,23 @@
 
         {
 
-          'headline':'HTML & CSS',
+          'headline':'ASP.Net',
           'value':8,
-          'length':9,
-          'description':'Significant experience and knowlage of HTML(5) and CSS functionality and use.'
+          'length':10,
+          'description':'Significant experience and knowlage of ASP.Net.'
 
         },
         {
 
           'headline':'JavaScript & jQuery',
-          'value':6,
+          'value':5,
           'length':5,
           'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
 
         },
         {
 
-          'headline':'Ruby & Python',
+          'headline':'Angular.Js',
           'value':3,
           'length':5,
           'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
