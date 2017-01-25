@@ -46,4 +46,13 @@
       iHRM, an advanced leading software to manage Human Resource for a company. This project is built to provide the company a facility to create, update, delete users manage the user attendance etc.
     </description>
   </project>
+  <project id="pr106">
+    <title>Expense Management</title>
+    <technology>Ionic, Angular.Js, Node.Js, MongoDb</technology>
+    <imagepath>/img/portfolios/mobile/1.png</imagepath>
+    <category>mobile</category>
+    <description>
+      This app is built using Ionic framework and using Node.Js service for authentication and back-end query and MongoDb is used for database storage.
+    </description>
+  </project>
 </projects>
