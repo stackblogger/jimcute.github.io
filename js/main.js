@@ -119,25 +119,49 @@ var object = [
   {
 
       'headline': 'ASP.Net',
-      'value': 8,
+      'value':8,
       'length': 10,
       'description': 'Significant experience and knowlage of ASP.Net.'
 
   },
   {
 
-      'headline': 'JavaScript & jQuery',
-      'value': 5,
-      'length': 5,
-      'description': 'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
+      'headline': 'ASP.Net MVC',
+      'value': 7,
+      'length': 10,
+      'description': 'Significant experience and knowlage of ASP.Net MVC.'
+
+  },
+  {
+
+      'headline': 'Node.Js',
+      'value': 8,
+      'length': 10,
+      'description': 'Significant experience and knowlage of NodeJs.'
 
   },
   {
 
       'headline': 'Angular.Js',
-      'value': 3,
-      'length': 5,
-      'description': 'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
+      'value': 5,
+      'length': 10,
+      'description': 'Significant experience and knowlage of Angular.'
+
+  },
+  {
+
+      'headline': 'JavaScript & jQuery',
+      'value': 8,
+      'length': 10,
+      'description': 'Javascript & jQuery'
+
+  },
+  {
+
+      'headline': 'Ionic.Js',
+      'value': 5,
+      'length': 10,
+      'description': 'Ionic.Js'
 
   }
 
