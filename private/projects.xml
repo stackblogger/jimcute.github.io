@@ -28,4 +28,22 @@
       This is a CRM project built on top of technologies like ASP.Net MVC, jQuery, Javascript etc and provides users facility to create Claims.
     </description>
   </project>
+  <project id="pr104">
+    <title>Street 2 Media</title>
+    <technology>ASP.Net MVC, C#, jQuery, Javascript, Bootstrap, SQL Server</technology>
+    <imagepath>/img/portfolios/web/2.png</imagepath>
+    <category>web</category>
+    <description>
+      Put your photos and videos in front of the media and get paid! Register today and download. All the uploaded photos will be reviewed by Collaborators and will be displayed privately so that public users can pay and download.
+    </description>
+  </project>
+  <project id="pr105">
+    <title>iHRM</title>
+    <technology>ASP.Net MVC, C#, jQuery, Angular.Js, Bootstrap, SQL Server</technology>
+    <imagepath>/img/portfolios/web/3.png</imagepath>
+    <category>web</category>
+    <description>
+      iHRM, an advanced leading software to manage Human Resource for a company. This project is built to provide the company a facility to create, update, delete users manage the user attendance etc.
+    </description>
+  </project>
 </projects>
