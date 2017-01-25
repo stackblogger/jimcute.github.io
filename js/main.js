@@ -251,6 +251,7 @@ function viewPortfolio(ev) {
     $("#title").html($(ev).find("a").html());
     $("#technology").html($(ev)[0].lastChild.value);
     $("#description").html($(ev)[0].nextSibling.value);
+    $("#prjtImg").attr("src", $(ev).find("img")[0].src);
 
     $("#myModal").modal("show");
 }

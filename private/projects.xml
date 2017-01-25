@@ -55,4 +55,13 @@
       This app is built using Ionic framework and using Node.Js service for authentication and back-end query and MongoDb is used for database storage.
     </description>
   </project>
+  <project id="pr107">
+    <title>Parse resume from Google Drive</title>
+    <technology>ASP.Net, C#, jQuery, Javascript, Bootstrap, MSSQL Server</technology>
+    <imagepath>/img/portfolios/web/not-found.png</imagepath>
+    <category>web</category>
+    <description>
+      This project uses Google Drive API to access the drive folder and reads the .doc and .docx files from the directory. It extracts the text from each file like Name, Degree, Technology, Skills etc and stores in SQL database. Admin can visit the page to view all the parsed resumes.
+    </description>
+  </project>
 </projects>
