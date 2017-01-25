@@ -1,0 +1,31 @@
+<projects>
+  <project id="pr101">
+    <title>Online Dynamic Web Designing Tool</title>
+    <technology>ASP.Net, C#, jQuery, Javascript, Bootstrap, MSSQL Server</technology>
+    <imagepath>/img/portfolios/web/not-found.png</imagepath>
+    <category>web</category>
+    <description>
+      This project was completed in B.Tech in a team of 5 members and the aim of this project was
+      to provide a way to the non-technical person ability to develop website.
+    </description>
+  </project>
+  <project id="pr102">
+    <title>A website like Freelancer.com</title>
+    <technology>ASP.Net, C#, jQuery, Javascript, Bootstrap, MSSQL Server</technology>
+    <imagepath>/img/portfolios/web/not-found.png</imagepath>
+    <category>web</category>
+    <description>
+      This project is the same as Freelancer.com which includes two main functions like Hire and Work.
+      We developed this as a simple application during the B.Tech Industrial Training program in team of 4 members.
+    </description>
+  </project>
+  <project id="pr103">
+    <title>Claim Ruler</title>
+    <technology>ASP.Net MVC 5, C#, jQuery, Javascript, Bootstrap, MSSQL Server, Database First Approach</technology>
+    <imagepath>/img/portfolios/web/1.png</imagepath>
+    <category>web</category>
+    <description>
+      This is a CRM project built on top of technologies like ASP.Net MVC, jQuery, Javascript etc and provides users facility to create Claims.
+    </description>
+  </project>
+</projects>

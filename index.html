@@ -33,6 +33,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_GHYdW9lLbJWn82wiRFOsi");
+        })();
+    </script>
 </head>
 
 <body>
@@ -93,8 +100,7 @@
             <div class="item slides">
                 <div class="slide-3"></div>
                 <div class="hero">
-                    <hgroup>
-                    </hgroup>
+                    <hgroup></hgroup>
                 </div>
             </div>
         </div>
@@ -142,6 +148,31 @@
             </div>
         </div>
     </div><!-- work area end   -->
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="font-family:Play;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><span id="title"></span></h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-left"><b>Technology: </b> <span id="technology"></span></p>
+                    <p class="text-left">
+                        <b>Description: </b>
+                        <span id="description">
+                        </span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
     <div class="portfolio_area">
@@ -149,7 +180,7 @@
             <div class="portfolio_section">
                 <div class="col-md-12 portfolio_top">
                     <h1>Portfolio</h1>
-                    <p>I have worked on these applications</p>
+                    <p>A list of applications developed by me or with me</p>
                 </div>
             </div>
 
@@ -161,214 +192,32 @@
             </ul>
 
             <div id="portfoliolist">
+                <!--
+                                <div class="portfolio web" data-cat="web">
+                                    <div class="portfolio-wrapper" onclick="viewPortfolio(this)">
+                                        <img src="img/portfolios/logo/5.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text">
+                                                <a class="text-title">Bird Document</a>
+                                                <span class="text-category">Logo</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/logo/5.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Bird Document</a>
-                                <span class="text-category">Logo</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio windows" data-cat="windows">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/app/1.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Visual Infography</a>
-                                <span class="text-category">APP</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio mobile" data-cat="mobile">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/web/4.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Sonor's Design</a>
-                                <span class="text-category">Web design</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio mobile" data-cat="mobile">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/card/1.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Typography Company</a>
-                                <span class="text-category">Business card</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio mobile" data-cat="mobile">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/app/3.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Weatherette</a>
-                                <span class="text-category">APP</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio windows" data-cat="windows">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/card/4.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">BMF</a>
-                                <span class="text-category">Business card</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio windows" data-cat="windows">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/card/5.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Techlion</a>
-                                <span class="text-category">Business card</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio windows" data-cat="windows">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/logo/1.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">KittyPic</a>
-                                <span class="text-category">Logo</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/app/2.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Graph Plotting</a>
-                                <span class="text-category">APP</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/card/2.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">QR Quick Response</a>
-                                <span class="text-category">Business card</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/logo/6.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Mobi Sock</a>
-                                <span class="text-category">Logo</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/logo/7.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Village Community Church</a>
-                                <span class="text-category">Logo</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/icon/4.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Domino's Pizza</a>
-                                <span class="text-category">Icon</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/web/3.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Backend Admin</a>
-                                <span class="text-category">Web design</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/icon/1.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Instagram</a>
-                                <span class="text-category">Icon</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio web" data-cat="web">
-                    <div class="portfolio-wrapper">
-                        <img src="img/portfolios/web/2.jpg" alt="" />
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Student Guide</a>
-                                <span class="text-category">Web design</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
+                                <div class="portfolio windows" data-cat="windows">
+                                    <div class="portfolio-wrapper">
+                                        <img src="img/portfolios/app/1.jpg" alt="" />
+                                        <div class="label">
+                                            <div class="label-text">
+                                                <a class="text-title">Visual Infography</a>
+                                                <span class="text-category">APP</span>
+                                            </div>
+                                            <div class="label-bg"></div>
+                                        </div>
+                                    </div>
+                                </div>-->
 
             </div>
 
@@ -466,10 +315,6 @@
 
                                 <label for="email">
                                     <input type="email" name="email" id="email" placeholder="Enter Your Email" />
-                                </label>
-
-                                <label for="phone">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone Number" />
                                 </label>
 
                                 <label for="message">
