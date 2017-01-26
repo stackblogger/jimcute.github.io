@@ -58,10 +58,50 @@
   <project id="pr107">
     <title>Parse resume from Google Drive</title>
     <technology>ASP.Net, C#, jQuery, Javascript, Bootstrap, MSSQL Server</technology>
-    <imagepath>/img/portfolios/web/not-found.png</imagepath>
+    <imagepath>/img/portfolios/web/drive.png</imagepath>
     <category>web</category>
     <description>
       This project uses Google Drive API to access the drive folder and reads the .doc and .docx files from the directory. It extracts the text from each file like Name, Degree, Technology, Skills etc and stores in SQL database. Admin can visit the page to view all the parsed resumes.
+    </description>
+  </project>
+  <project id="pr108">
+    <title>MowRichmond.com</title>
+    <technology>Node.Js, ExpressJs, Mongodb, jQuery, Javascript, Bootstrap, Stripe Payment Gateway</technology>
+    <imagepath>/img/portfolios/web/mow.png</imagepath>
+    <category>web</category>
+    <description>
+      This website is running live in Richmond city of USA and using this site, users are able to search their address, register theirself for mow service and get the mow service weekly or monthly.
+      It uses Stripe Payment Gateway for payment processing work and site is running at HTTPS protocol and uses SSL certificate.
+    </description>
+  </project>
+  <project id="pr109">
+    <title>Lets Chat</title>
+    <technology>Ionic, AngularJs, Mongodb, Angular Bootstrap</technology>
+    <imagepath>/img/portfolios/mobile/chat.png</imagepath>
+    <category>mobile</category>
+    <description>
+      Lets chat is a mobile application built to provide the chat facility between users. Users need to register theirself before entering to the application and they can
+      chat to another logged in persons in a ream time. I have used IonicJs framework to built the mobile layout for the application and using NodeJs as a Backend service for 
+      the application.
+    </description>
+  </project>
+  <project id="pr110">
+    <title>Church Prayer App</title>
+    <technology>HTML5, CSS3, AngularJs, Bootstrap</technology>
+    <imagepath>/img/portfolios/mobile/church.png</imagepath>
+    <category>mobile</category>
+    <description>
+      A church prayer wall where people can enter prayers regarding their loved ones to pray for. There is a button in the app say 'Pray', on clicking on the button, it will increase a counting number and hence users can click on button to pray for the posted prayer.
+    </description>
+  </project>
+  <project id="pr111">
+    <title>E-Commerce Online Shopping</title>
+    <technology>Node.Js, Angular.Js, ExpressJs, Mongodb, Bootstrap, CSS3</technology>
+    <imagepath>/img/portfolios/web/e-commerce.png</imagepath>
+    <category>web</category>
+    <description>
+      A place to buy things, its a greatest demandable website in the world. Everyone want to sell their products online and every people want to buy things online.
+      I have made selling and buying functionality easy by developing this app. Users can buy, pay and get the desired product at home.
     </description>
   </project>
 </projects>

@@ -1201,6 +1201,11 @@ line-height: 45px !important;}
     		inset 0 0 50px #000,
                 inset 0 0 50px #000,
                 inset 0 0 50px #000;
+   border: 1px solid transparent;
+    padding: 2px;
+    -webkit-border-image: url(border.png) 50 round;
+    -o-border-image: url(border.png) 50 round;
+    border-image: url(border.png) 50 round;
 }
 
 #overlay {
