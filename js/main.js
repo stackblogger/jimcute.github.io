@@ -126,26 +126,10 @@ var object = [
   },
   {
 
-      'headline': 'ASP.Net MVC',
-      'value': 7,
-      'length': 10,
-      'description': 'Significant experience and knowlage of ASP.Net MVC.'
-
-  },
-  {
-
       'headline': 'Node.Js',
       'value': 8,
       'length': 10,
       'description': 'Significant experience and knowlage of NodeJs.'
-
-  },
-  {
-
-      'headline': 'Angular.Js',
-      'value': 5,
-      'length': 10,
-      'description': 'Significant experience and knowlage of Angular.'
 
   },
   {
@@ -156,6 +140,32 @@ var object = [
       'description': 'Javascript & jQuery'
 
   },
+  {
+
+      'headline': 'Express.Js',
+      'value': 8,
+      'length': 10,
+      'description': 'ExpressJs'
+
+  },
+  {
+
+      'headline': 'ASP.Net MVC',
+      'value': 7,
+      'length': 10,
+      'description': 'Significant experience and knowlage of ASP.Net MVC.'
+
+  },
+  
+  {
+
+      'headline': 'Angular.Js',
+      'value': 5,
+      'length': 10,
+      'description': 'Significant experience and knowlage of Angular.'
+
+  },
+  
   {
 
       'headline': 'Ionic.Js',
