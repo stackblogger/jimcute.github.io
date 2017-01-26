@@ -119,7 +119,7 @@ var object = [
   {
 
       'headline': 'ASP.Net',
-      'value':8,
+      'value': 8,
       'length': 10,
       'description': 'Significant experience and knowlage of ASP.Net.'
 
@@ -217,6 +217,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#submit_btn").click(function () {
+        $('#overlay').show();
+
         //get input field values
         var user_name = $('input[name=name]').val();
         var user_email = $('input[name=email]').val();
@@ -230,6 +232,11 @@ $(document).ready(function () {
             proceed = false;
         }
         if (user_email == "") {
+            $('input[name=email]').css('border-color', 'red');
+            proceed = false;
+        }
+
+        if (!isEmail(user_email)) {
             $('input[name=email]').css('border-color', 'red');
             proceed = false;
         }
@@ -250,11 +257,14 @@ $(document).ready(function () {
                 console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
                 $(".contact_section").find(":input").each(function () {
                     $(this).val('');
+                    $('#overlay').hide();
                 })
             }, function (err) {
-                console.log("FAILED. error=", err);
+                $('#overlay').hide();
+                alert(err);
             });
-
+        } else {
+            $('#overlay').hide();
         }
     });
 
@@ -265,6 +275,11 @@ $(document).ready(function () {
     });
 
 });
+
+function isEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+}
 
 
 /*=========================================================================

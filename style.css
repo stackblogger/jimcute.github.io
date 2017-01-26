@@ -1202,3 +1202,16 @@ line-height: 45px !important;}
                 inset 0 0 50px #000,
                 inset 0 0 50px #000;
 }
+
+#overlay {
+  background-color: black;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: 0.2; /* also -moz-opacity, etc. */
+  z-index: 10;
+}
+
+#overlay img{
+    top:400px;
+    position:absolute;
+}
