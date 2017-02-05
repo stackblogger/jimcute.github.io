@@ -81,7 +81,7 @@
     <category>mobile</category>
     <description>
       Lets chat is a mobile application built to provide the chat facility between users. Users need to register theirself before entering to the application and they can
-      chat to another logged in persons in a ream time. I have used IonicJs framework to built the mobile layout for the application and using NodeJs as a Backend service for 
+      chat to another logged in persons in a ream time. I have used IonicJs framework to built the mobile layout for the application and using NodeJs as a Backend service for
       the application.
     </description>
   </project>
@@ -102,6 +102,28 @@
     <description>
       A place to buy things, its a greatest demandable website in the world. Everyone want to sell their products online and every people want to buy things online.
       I have made selling and buying functionality easy by developing this app. Users can buy, pay and get the desired product at home.
+    </description>
+  </project>
+  <project id="pr112">
+    <title>Largo (Onsite project from Ireland)</title>
+    <technology>Win Forms, VB.Net, Barcode Scanner, Oracle, Label Printer</technology>
+    <imagepath>/img/portfolios/web/largo.png</imagepath>
+    <category>web</category>
+    <description>
+      I developed this software in Ireland during the Onsite development. I was in Ireland for three months sent from my company. 
+      This project was for a Snacks selling company in Ireland, they scan and generate the label barcode for each of their products. This project was built to provide
+      a facility to read and generate the lables.
+    </description>
+  </project>
+  <project id="pr113">
+    <title>Kingfisher (Onsite project from Ireland)</title>
+    <technology>Win Forms, VB.Net, Telerik Controls, Label Printer, Barcode Scanner</technology>
+    <imagepath>/img/portfolios/web/kingfisher.png</imagepath>
+    <category>web</category>
+    <description>
+      This project was from Ireland. This software is built to provide Kingfisher company members and their client a way to buy and sell products easily and 
+      manage all the related things like Invoices, Product details, Trawlers etc in the database of the project.
+      The functionality of the projects are- Scanning the label, Generating the lable, Generate invoices, manage customers, manage stocks, manage trawlers etc
     </description>
   </project>
 </projects>
