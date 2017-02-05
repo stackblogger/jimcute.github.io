@@ -107,8 +107,8 @@
   <project id="pr112">
     <title>Largo (Onsite project from Ireland)</title>
     <technology>Win Forms, VB.Net, Barcode Scanner, Oracle, Label Printer</technology>
-    <imagepath>/img/portfolios/web/largo1.png</imagepath>
-    <category>web</category>
+    <imagepath>/img/portfolios/windows/largo1.png</imagepath>
+    <category>windows</category>
     <description>
       I developed this software in Ireland during the Onsite development. I was in Ireland for three months sent from my company. 
       This project was for a Snacks selling company in Ireland, they scan and generate the label barcode for each of their products. This project was built to provide
@@ -118,8 +118,8 @@
   <project id="pr113">
     <title>Kingfisher (Onsite project from Ireland)</title>
     <technology>Win Forms, VB.Net, Telerik Controls, Label Printer, Barcode Scanner</technology>
-    <imagepath>/img/portfolios/web/kingfisher.png</imagepath>
-    <category>web</category>
+    <imagepath>/img/portfolios/windows/kingfisher.png</imagepath>
+    <category>windows</category>
     <description>
       This project was from Ireland. This software is built to provide Kingfisher company members and their client a way to buy and sell products easily and 
       manage all the related things like Invoices, Product details, Trawlers etc in the database of the project.
