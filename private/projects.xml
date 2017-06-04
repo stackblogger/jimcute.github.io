@@ -129,7 +129,7 @@
   <project id="pr114">
     <title>Facebook Ads Report integration</title>
     <technology>Classic ASP, jQuery, Javascript, Facebook Graph APIs, VBScript, HTML5</technology>
-    <imagepath>/img/portfolios/windows/facebook-api.png</imagepath>
+    <imagepath>/img/portfolios/web/facebook-api.jpg</imagepath>
     <category>web</category>
     <description>
       The application is developed in Classic ASP code and uses Facebook Marketing APIs to integrate the Facebook Ad reports in website. Users have their account in this application and this application reads the user's ads information from facebook and plots the chart, graph etc to display it. 
@@ -140,7 +140,7 @@
     <project id="pr115">
     <title>Onedrive Connector</title>
     <technology>Node.Js, ExpressJs, jQuery, Javascript, MS Onedrive APIs, MongoDb</technology>
-    <imagepath>/img/portfolios/windows/onedrive.png</imagepath>
+    <imagepath>/img/portfolios/web/onedrive.jpg</imagepath>
     <category>web</category>
     <description>
       Its a connector application which connects Onedrive Business Accounts in application using Oauth integration process. It has the functionality to Subscribe Onedrive Webhooks and after subscriptions, it gets the file changes notifications in the application. Once it gets a file change notification, it peforms some operations on the uploaded file and sends back the result to Onedrive.
